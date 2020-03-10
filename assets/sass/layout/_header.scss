@@ -1,0 +1,12 @@
+.posit{
+    margin-left: -270px;
+    height: 200px;
+}
+
+@media (min-width: 334px){
+    .posit{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}

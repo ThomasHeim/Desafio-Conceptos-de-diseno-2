@@ -9975,6 +9975,18 @@ body {
   color: #ffffff;
 }
 
+.posit {
+  margin-left: -270px;
+  height: 200px;
+}
+
+@media (min-width: 334px) {
+  .posit {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}
 .blog {
   display: none;
 }
@@ -9987,6 +9999,27 @@ body {
   .blog__contenido-titulo {
     text-align: center;
   }
+}
+.formulario__contenido {
+  background-color: #727272 !important;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.contenedor__form {
+  justify-content: center;
+}
+
+.enviar, .formes {
+  border-radius: 0px;
+}
+
+.final {
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
