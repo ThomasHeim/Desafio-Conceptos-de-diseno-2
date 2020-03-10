@@ -1,0 +1,13 @@
+.nav__barra{
+    background-color: #ffffff;
+    
+    li{
+        @include nasalization;
+        color: #000000 !important;
+    }
+}
+
+.nav__barra-lista {
+    justify-content: space-evenly;
+}
+
