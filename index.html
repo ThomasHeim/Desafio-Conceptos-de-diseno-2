@@ -9,14 +9,14 @@
 </head>
 <body>
   <!--Navegacion-->
-    <nav class="nav__barra navbar navbar-expand-lg navbar-light barra__navegacion">
-        <a class="navbar-brand" href="#"><img src="assets/img/5295d1_9ce1719b9487471ab5d8b7bb7796f9b5mv2_d_1349_1659_s_2.webp" alt=""><img src="assets/img/FRACTAL juegos.webp" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-light nav__barra">
+        <a class="navbar-brand nav__logo" href="#"><img src="assets/img/5295d1_9ce1719b9487471ab5d8b7bb7796f9b5mv2_d_1349_1659_s_2.webp" alt=""><img src="assets/img/FRACTAL juegos.webp" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse nav__barra-lista" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
@@ -81,23 +81,39 @@
           </a>
         </div>
       </header>
-      <div class="row">
-        <section class="disponibles col-12 col-md-9">
-          <div class="disponibles__titulo">
-            <h1 class="disponibles__titulo-texto">Disponibles</h1>
-          </div>
-          <div class="row disponibles__display">
-            <div class="disponibles__display-originales col-12 col-md-5">
-              <h2 class="disponibles__display-originales__titulo">Títulos Originales</h2>
+      <main class="container main__section">
+        <div class="row">
+          <section class="col-12 col-md-9 disponibles ">
+            <div class="disponibles__titulo">
+              <h1 class="disponibles__titulo-texto">Disponibles</h1>
             </div>
-            <div class="disponibles__display-localizados col-12 col-md-5">
-              <h2 class="disponibles__display-localizados__titulo">Títulos localizados</h2>
+            <div class="row disponibles__display">
+              <div class="col-12 col-md-6 disponibles__display-originales ">
+                <h2 class="disponibles__display-originales__titulo">Títulos Originales</h2>
+                <div class="row disponibles__display-cards">
+                  <div class="col-12 disponibles__display-cards__card">
+                    <img class="disponibles__display-cards__imagen" src="assets/img/92b253_979357226faf43debd9764d26e3745ddmv2.webp" alt="tiny towns">
+                    <div class="disponibles__display-cards__identificacion">
+                      <h4 class="disponibles__display-cards__texto">Título del juego</h4>
+                    </div>
+                  </div>
+                  <div class="col-12 disponibles__display-cards__card">
+                    <img src="assets/img/92b253_979357226faf43debd9764d26e3745ddmv2.webp" alt="tiny towns">
+                  </div>
+                  <div class="col-12 disponibles__display-cards__card">
+                    <img src="assets/img/92b253_979357226faf43debd9764d26e3745ddmv2.webp" alt="tiny towns">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 disponibles__display-localizados ">
+                <h2 class="disponibles__display-localizados__titulo">Títulos localizados</h2>
+              </div>
             </div>
-          </div>
-        </section>
-        <aside class="blog col-md-3">
-            <h4>Últimas entradas</h>
-        </aside>
+          </section>
+          <aside class="col-md-3 blog">
+              <h4 class="blog__contenido-titulo">Últimas entradas</h>
+          </aside>
+        </div>
       </div>
      
 

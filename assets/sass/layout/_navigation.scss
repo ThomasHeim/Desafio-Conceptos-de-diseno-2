@@ -1,13 +1,52 @@
 .nav__barra{
     background-color: #ffffff;
+    padding: 8px 25px;
     
     li{
         @include nasalization;
         color: #000000 !important;
+        text-align: center;
     }
 }
 
 .nav__barra-lista {
-    justify-content: space-evenly;
+    justify-content: center !important;
 }
 
+.nav__logo{
+    width: 50%;
+
+    img{
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) { 
+    .nav__barra{
+        background-color: #ffffff;
+        padding: 8px 80px;
+        
+        li{
+            @include nasalization;
+            color: #000000 !important;
+            text-align: center;
+        }
+    }
+    .nav__logo{
+        width: 30%;
+    
+        img{
+            width: 30%;
+        }
+    }
+}
+
+@media (min-width: 992px) { 
+    .nav__logo{
+        width: 20%;
+    
+        img{
+            width: 40%;
+        }
+    }
+}

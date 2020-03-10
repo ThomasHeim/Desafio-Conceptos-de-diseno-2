@@ -1,0 +1,15 @@
+.blog{
+    display: none;
+}
+
+@media (min-width: 768px) { 
+    .blog{
+        display: inline-block;
+    }
+
+    .blog__contenido{
+        &-titulo{
+            text-align: center;
+        }
+    }
+}
