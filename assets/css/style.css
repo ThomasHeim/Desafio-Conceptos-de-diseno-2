@@ -36,10 +36,12 @@ body {
 }
 
 .nav__logo {
-  width: 50%;
+  width: 20%;
 }
 .nav__logo img {
-  width: 40%;
+  width: 100%;
+  max-width: 100px;
+  min-width: 50px;
 }
 
 @media (min-width: 768px) {
@@ -56,22 +58,25 @@ body {
   }
 
   .nav__logo {
-    width: 30%;
+    width: 50%;
   }
   .nav__logo img {
-    width: 30%;
+    width: 100%;
+    max-width: 100px;
+    min-width: 50px;
   }
 }
 @media (min-width: 992px) {
   .nav__logo {
-    width: 20%;
-  }
-  .nav__logo img {
-    width: 30%;
+    width: 50%;
   }
 
   .nav__barra-lista ul {
     margin-right: 50px;
+  }
+
+  .nav__buscador {
+    flex-wrap: nowrap;
   }
 }
 .main__section {
