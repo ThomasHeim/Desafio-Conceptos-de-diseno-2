@@ -1,11 +1,20 @@
 .nav__barra{
     background-color: #ffffff;
     padding: 8px 25px;
-    
-    li{
-        @include nasalization;
-        color: #000000 !important;
-        text-align: center;
+
+    &-menu{
+        border-bottom: 1px solid #000000;
+    }
+}
+
+.nav__menu-link{
+    @include nasalization;
+    color: #000000 !important;
+    text-align: center;
+
+    &:hover{
+        background-color: #000000;
+        color: #ffffff !important;
     }
 }
 
@@ -46,7 +55,7 @@
         width: 20%;
     
         img{
-            width: 40%;
+            width: 30%;
         }
     }
 }

@@ -1,12 +1,24 @@
+.hero{
+    margin-bottom: 10%;
+}
 .posit{
     margin-left: -270px;
     height: 200px;
 }
 
 @media (min-width: 334px){
+    .hero{
+        margin-bottom: 5%;
+    }
     .posit{
         width: 100%;
         height: auto;
         margin-left: 0;
+    }
+}
+
+@media (min-width: 992px){
+    .hero{
+        margin-bottom: 0%;
     }
 }
