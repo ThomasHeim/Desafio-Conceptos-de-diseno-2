@@ -122,6 +122,10 @@ body {
   width: auto;
   height: 100%;
 }
+.disponibles__display-cards__card:hover img {
+  opacity: 0.7;
+  transition: opacity 0.25s ease-in-out;
+}
 .disponibles__display-cards__identificacion {
   background-color: #000000;
   position: absolute;
@@ -210,6 +214,10 @@ body {
   .blog__contenido-noticia {
     position: relative;
     margin-bottom: 30%;
+  }
+  .blog__contenido-noticia:hover img {
+    opacity: 0.7;
+    transition: opacity 0.25s ease-in-out;
   }
   .blog__contenido-noticia__info {
     position: absolute;

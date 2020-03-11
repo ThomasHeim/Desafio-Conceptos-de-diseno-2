@@ -54,6 +54,11 @@
         height: 100%;
     }
 
+    &__card:hover img{
+        opacity: 0.7;
+        transition: opacity .25s ease-in-out;
+    }
+
     &__identificacion{
         background-color: #000000;
         position: absolute;
