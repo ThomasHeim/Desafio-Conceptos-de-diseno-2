@@ -80,7 +80,8 @@ body {
   }
 }
 .main__section {
-  margin-top: 2%;
+  margin: 2% 0% 0% 0%;
+  max-width: none;
 }
 
 .disponibles__titulo-texto {
@@ -109,12 +110,13 @@ body {
 }
 .disponibles__display-localizados {
   margin-bottom: 5%;
-  border-left: #000000;
+  background-color: #000000;
 }
 .disponibles__display-localizados__titulo {
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   margin-bottom: 2rem;
+  padding-top: 5%;
 }
 
 .disponibles__display-cards__card {
@@ -144,6 +146,13 @@ body {
   padding: 5px;
 }
 
+.card__localizado {
+  background-color: #ffffff;
+}
+.card__localizado-texto {
+  color: #000000;
+}
+
 .display__boton {
   display: flex;
   justify-content: center;
@@ -158,6 +167,28 @@ body {
   color: #ffffff !important;
 }
 
+@media (min-width: 768px) {
+  .disponibles__display-localizados {
+    background-color: #ffffff;
+  }
+  .disponibles__display-localizados__titulo {
+    color: #000000;
+    padding-top: 0%;
+  }
+
+  .card__localizado {
+    background-color: #000000;
+  }
+  .card__localizado-texto {
+    color: #ffffff;
+  }
+}
+@media (min-width: 992px) {
+  .main__section {
+    margin: 2% auto 0% auto;
+    max-width: 960px;
+  }
+}
 .hero {
   margin-bottom: 10%;
 }

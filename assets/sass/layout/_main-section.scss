@@ -1,5 +1,6 @@
 .main__section{
-    margin-top: 2%;
+margin: 2% 0% 0% 0%;
+max-width: none;
 }
 
 .disponibles__titulo-texto{
@@ -31,13 +32,15 @@
 
     &-localizados{
         margin-bottom: 5%;
-        border-left: #000000;
+        background-color: #000000;
+        
     }
 
     &-localizados__titulo{
-        color: #000000;
+        color: #ffffff;
         text-align: center;
         margin-bottom: 2rem;
+        padding-top: 5%;
     }
 }
 
@@ -74,6 +77,13 @@
     }
 }
 
+.card__localizado{
+    background-color: #ffffff;
+    &-texto{
+        color: #000000;
+    }
+}
+
 .display__boton{
     display: flex;
     justify-content: center;
@@ -90,4 +100,30 @@
             color: #ffffff !important;
         }
     }
+}
+
+@media (min-width: 768px) { 
+    .disponibles__display{
+        &-localizados{
+            background-color: #ffffff;
+        }
+
+        &-localizados__titulo{
+            color: #000000;
+            padding-top: 0%;
+        }
+    }
+    .card__localizado{
+        background-color: #000000;
+        &-texto{
+            color: #ffffff;
+        }
+    }
+}
+
+@media (min-width: 992px){
+    .main__section{
+        margin: 2% auto 0% auto;
+        max-width: 960px;
+        }
 }
